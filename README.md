@@ -36,3 +36,11 @@ Login Page includes:
 ---
 
 ## 📁 Project Structure
+
+    Log-In_Field/
+    │
+    ├── Log-In-Field.html            # Main HTML file
+    ├── Log-In-Field_CSS.css         # Styling and animations
+    ├── Log-In-Field_JS.js           # Form validation & interactivity
+    ├── DLD_Logo.jpg                 # Profile image used in login page
+    └── README.md                    # Project documentation

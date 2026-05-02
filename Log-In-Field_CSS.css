@@ -103,3 +103,10 @@ button:hover {
   from {opacity:0; transform:translateY(20px);}
   to {opacity:1; transform:translateY(0);}
 }
+.avatar {
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

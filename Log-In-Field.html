@@ -9,7 +9,16 @@
 
 <div class="container">
   <form id="loginForm" class="login-card">
-    <img src="C:\Users\Admin\Downloads\DLD_logo_under_1MB.jpg" alt="Avatar" class="avatar">
+          <!-- Clickable Login Image -->
+    <div class="login-image-wrapper">
+      <img src="C:\Users\Admin\Downloads\DLD_logo_under_1MB.jpg" id="loginImage" class="login-image" alt="Login Image">
+    </div>
+
+    <!-- Fullscreen Popup -->
+    <div id="imagePopup" class="image-popup">
+      <span id="closePopup">&times;</span>
+      <img class="popup-content" id="popupImg">
+    </div>
     <h2>Hey Buddy!</h2>
     <p class="subtitle">Login to continue</p>
 

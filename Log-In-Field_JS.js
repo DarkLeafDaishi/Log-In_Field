@@ -43,3 +43,24 @@ form.addEventListener("submit", function(e) {
     message.textContent = "Invalid email or password";
   }
 });
+// Image popup logic
+const loginImage = document.getElementById("loginImage");
+const popup = document.getElementById("imagePopup");
+const popupImg = document.getElementById("popupImg");
+const closePopup = document.getElementById("closePopup");
+
+loginImage.onclick = function() {
+  popup.style.display = "block";
+  popupImg.src = this.src;
+}
+
+closePopup.onclick = function() {
+  popup.style.display = "none";
+}
+
+// Close when clicking outside image
+popup.onclick = function(e) {
+  if (e.target === popup) {
+    popup.style.display = "none";
+  }
+}
